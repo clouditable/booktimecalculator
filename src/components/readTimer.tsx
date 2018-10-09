@@ -40,9 +40,10 @@ class IReadTimer extends React.Component <IMyProps, IMyState> {
         onChange = {this.handleChange}
         type = "number"
         />
-        <p>{this.state.words}</p>
-        <h2>you are going to take approximately {this.state.age} minutes of reading!</h2>
+        
+        <h2>You are going to take approximately {this.state.age} minutes of reading!</h2>
         <button onClick= { e => this.pushMe()} >Calculate!</button>
+        <p>Note: An average book holds 250-300 words/page</p>
       </div>
     );
   }
