@@ -6,7 +6,7 @@ class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <ReadTimer name='Cezmi' />
+        <ReadTimer name='no props' />
       </div>
     );
   }
